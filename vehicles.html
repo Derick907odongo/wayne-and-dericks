@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our Vehicles | Wayne & Dericks</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .listings {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .vehicle {
+      border: 1px solid #ccc;
+      padding: 15px;
+      border-radius: 10px;
+      background-color: #fff;
+      text-align: center;
+    }
+    .vehicle img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">WAYNE & DERICKS</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="vehicles.html">Vehicles</a></li>
+        <li><a href="sell.html">Sell</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Available Vehicles</h1>
+    <div class="listings">
+      <div class="vehicle">
+        <img src="images/car1.jpg" alt="Toyota Axio">
+        <h3>Toyota Axio 2014</h3>
+        <p>Ksh 1,250,000</p>
+      </div>
+      <div class="vehicle">
+        <img src="images/car2.jpg" alt="Mazda Demio">
+        <h3>Mazda Demio 2016</h3>
+        <p>Ksh 890,000</p>
+      </div>
+      <div class="vehicle">
+        <img src="images/bike1.jpg" alt="TVS HLX 150">
+        <h3>TVS HLX 150</h3>
+        <p>Ksh 110,000</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
